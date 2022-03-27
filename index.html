@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | QUIZ</title>
+</head>
+<style>
+    html, body {
+        color: #000;
+        font-family: 'Work Sans', sans-serif;
+    }
+
+    .form {
+        margin-top: 40px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+
+    .form h1 {
+        font-weight: 800;
+        padding-bottom: 10px;
+        color: #23272a;
+    }
+
+    .form p, .form label {
+        font-size: 17px;
+        color: black;
+    }
+
+    .form .col-md-8 {
+        background-color: #f2f2f2;
+        padding: 40px;
+    }
+
+    .backlink p {
+        font-size: 16px;
+    }
+
+    .backlink {
+        margin-top: 30px;
+    }
+
+    #captcha {
+        position: absolute;
+        right: 0;
+        top: -70px;
+        z-index: 9;
+        display: none;
+    }
+
+    .error-msg {
+        color: #cc0000 !important;
+        border-radius: 1rem;
+        border: 1px solid #ff3333;
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+    @media  only screen and (max-width: 800px) {
+        .form {
+            margin: 20px 0;
+        }
+    }
+
+    @media  only screen and (max-width: 400px) {
+        .form .col-md-8 {
+            padding: 20px;
+        }
+    }
+</style>
+<!-- <script src="https://data.jsdelivr.com/v1/package/npm/js-cookie/badge)](https://www.jsdelivr.com/package/npm/js-cookie"></script> -->
+            
+<link rel="stylesheet" href="/css/home.css">
+<script src="/js/home.js"></script>
+<link rel="stylesheet" href="/css/style.css">
+<!-- <script src="/js/script.js"></script> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+<body onload="myFun()">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="/send.js"></script>
+  
+  
+
+
+
+<form action="" name="form" >
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <!-- Navbar -->
+    <div>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="/main.html">Quiz</a>
+        <a href="/LEARN.html">Learn</a>
+        <a href="/about.html">About</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          
+        </a>
+      </div>
+      
+
+<H2 id="h2">Your Tadays Question Goes Here </H2>
+<br>
+<H2 id="que">Lorem ipsum dolor, sit amet consectetur adipisicing.</H2>
+<br>
+<button id="one" class="one" onclick="loose()"> one</button>
+<br>
+<button id="two" onclick="win()">two</button>
+<br>
+<button id="three" onclick="loose()">threee</button>
+<br>
+<button id="four" onclick="loose()">four</button> 
+
+        <!-- Contact -->
+        <!-- <div class="container">
+          <form action="https://formsubmit.co/686dcead4fead275bcdc9142226485d0"   method="POST" >
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <!-- <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
+
+            <label for="lname">Email</label>
+            <input type="text" id="Email" name="Email" placeholder="Your  Email.....">
+
+            <!-- <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> -->
+
+            <!-- <input type="submit" value="Submit" onclick="send()">
+          </form>
+        </div>
+      </div> --> -->
+ 
+   <!-- modify this form HTML and place wherever you want your form -->
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xvolbzvo"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+        <!-- alert -->
+        
+
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+       </head>
+   
+        <div class="container">
+          <input type="checkbox" id="check">
+          <label class="show_button" for="check" id="loss" >Cck Me</label>
+          <div class="background"></div>
+          <div class="alert_box">
+            <div class="icon">
+              <i class="fas fa-exclamation"></i>
+            </div>
+            <header>Attention Please </header>
+            <p> Tomorrow Is Sunday A special Riddle Day Be Ready For Your Riddle</p>
+            <div class="btns">
+              <label for="check">Ok! I Am Ready</label>
+            </div>
+          </div>
+        </div> 
+
+
+
+
+         
+</form>
+
+
+
+
+
+
+
+  </body>
+
+</html>
